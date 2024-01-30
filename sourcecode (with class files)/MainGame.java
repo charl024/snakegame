@@ -1,6 +1,4 @@
 /**
- * Charles Omaoeng
- * CS251L
  * MainGame.java
  * The main GUI display for snake game
  * Extends JFrame, and includes a nested class (MainGamePanel)
