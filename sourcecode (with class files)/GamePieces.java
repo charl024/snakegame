@@ -1,6 +1,4 @@
 /**
- * Charles Omaoeng
- * CS251L
  * GamePieces.java
  * Enum that contains all game piece types
  */
