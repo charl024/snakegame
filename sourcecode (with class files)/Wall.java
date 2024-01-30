@@ -1,7 +1,4 @@
-
-
-/** Charles Omaoeng
- *  CS251L
+/** 
  *  Wall.java
  *  Contains information pertaining to WALL gamePiece
  */
