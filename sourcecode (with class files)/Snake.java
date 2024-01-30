@@ -1,6 +1,4 @@
 /**
- * Charles Omaoeng
- * CS251L
  * Snake.java
  * Contains information pertaining to SNAKE gamePiece
  */
