@@ -1,7 +1,4 @@
 /**
- * Charles Omaoeng
- *  CS251L
- *  GameManager.java
  *  Initializes Snake game, contains all game logic
  *  Needs a Level file (text file) containing board & wall specifications to work
  */
