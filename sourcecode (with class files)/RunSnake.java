@@ -1,8 +1,6 @@
 import java.io.IOException;
 
 /**
- * Charles Omaoeng
- * CS251L
  * SnakeGame.java
  * Runs SnakeGame, initiates MainGame.java
  */
