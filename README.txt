@@ -1,6 +1,3 @@
-CS251L
-Charles Omaoeng
-
 Snake.jar
 
 SECTION I: HOW TO RUN
