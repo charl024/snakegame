@@ -1,6 +1,6 @@
 # Snake Clone
 
-SECTION I: HOW TO RUN
+**SECTION I: HOW TO RUN**
 - After downloading Snake.jar, run 'java -jar Snake.jar' in current directory on Command Line to run Snake.
 - Once running this command, a window will appear.
 - This window will display a menu screen where you can choose what level to play.
@@ -35,7 +35,7 @@ SECTION I: HOW TO RUN
 		0 0 0 79
 		79 79 0 79
 		
-SECTION II: HOW TO PLAY
+**SECTION II: HOW TO PLAY**
 - Arrow keys are used to move the snake.
 - UP ARROW KEY moves the snake up, DOWN ARROW KEY moves the snake down, LEFT ARROW KEY moves the snake left, RIGHT ARROW KEY moves the snake right
 - Once the level is displayed on the window, either press the spacebar or the start button to begin the game.
@@ -51,7 +51,7 @@ SECTION II: HOW TO PLAY
 	- SPEED APPLES: If eaten, gives 1 point and increases length by 1. Increases speed of snake. Only spawns if score is equal to or more than 20 and speed is below a certain point (75).
 	- PUMPKIN APPLES: If eaten, gives 10 points and increases length by 10. Decreases speed of snake. Only spawns if score is equal to or more than 20.
 
-SECTION III: GAME DATA
+**SECTION III: GAME DATA**
 
 - SECTION IIIA: CLASSES
 	- RunSnake.java : Runs Snake, it does this by creating an instance of MainGame.java. This is the java file that is called with the Command Line command. Takes in Command Line input.
