@@ -53,7 +53,7 @@ SECTION II: HOW TO PLAY
 
 SECTION III: GAME DATA
 
-	SECTION IIIA: CLASSES
+- SECTION IIIA: CLASSES
 	- RunSnake.java : Runs Snake, it does this by creating an instance of MainGame.java. This is the java file that is called with the Command Line command. Takes in Command Line input.
 	- MainGame.java : Contains and initializes the main GUI JFrame for snake as well as the JPanel that contains the graphics for Snake.
 	- GameManager.java : Contains all game logic. Takes in Command Line input from RunSnake.java.
@@ -61,7 +61,7 @@ SECTION III: GAME DATA
 	- Wall.java : Contains information pertaining to a WALL on the play area. 
 	- GamePieces.java : An enum class that has all the game pieces used in Snake.
 
-	SECTIONIIIB: SNAKE ALGORITHM
+- SECTIONIIIB: SNAKE ALGORITHM
 	- The "snake" shown on the GUI and game panel in this Snake game is actually a Deque of "snake" (Snake.java) objects. 
 	- Each "snake" object contains two integers (row and column) representing a certain point on the game board.
 	- As the snake "moves" through the game board, the snake object in the first element of the Deque has its corresponding row and column information updated.
@@ -72,7 +72,7 @@ SECTION III: GAME DATA
 	- In this Snake game, the code will check whether or not the snake has reached its maximum length. If it hasn't reached its maximum length, then it will keep "growing" until it has reached that maximum length.
 	- If the snake eats an apple, the maximum length will increase.
 
-	SECTIONIIIC: COLLISION DETECTION & GAME OVER
+- SECTIONIIIC: COLLISION DETECTION & GAME OVER
 	- The game detects collision through a method utilizing a switch.
 	- This switch will check if a tile surrounding the "head" of the snake is a certain game piece.
 	- If the game piece is not a WALL or a SNAKE, this method will return a boolean value of "false".
@@ -81,7 +81,7 @@ SECTION III: GAME DATA
 	- As soon as it is set to true, the graphics will stop being updated and the game instance ends.
 	- A dialog will appear that will prompt the user to either continue or quit the game.
 	
-	SECTIONIIID: KNOWN BUGS
+- SECTIONIIID: KNOWN BUGS
 	- Pressing two arrow keys in quick succession may cause the snake to collide with itself and end the game.
 		- The cause of this is likely the way I am preventing the snake from going backwards on itself and ending the game prematurely because it hit itself.
 		- Improving the checking method will solve this bug.
