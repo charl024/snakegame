@@ -1,4 +1,4 @@
-Snake.jar
+# Snake Clone
 
 SECTION I: HOW TO RUN
 - After downloading Snake.jar, run 'java -jar Snake.jar' in current directory on Command Line to run Snake.
